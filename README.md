@@ -1,18 +1,55 @@
-# React + Vite
+-----J&J Candle & Gypsum Art Website----
+----Project Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+J&J Candle & Gypsum Art is a responsive ReactJS website created for a handmade candle and gypsum art business.
+The website showcases luxury handmade products, customer reviews, company information, and contact details.
 
-Currently, two official plugins are available:
+----Features----
+Home page with Bootstrap carousel
+About page
+Products page
+Customer reviews page
+Contact page
+Responsive design
+React Router navigation
+Bootstrap styling
+Technologies Used
+React
+Vite
+React Router DOM
+Bootstrap
+CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+----Pages----
+Home
+About
+Products
+Reviews
+Contact
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   └── Carousel.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Products.jsx
+│   ├── Reviews.jsx
+│   └── Contact.jsx
+│
+├── App.jsx
+├── main.jsx
+└── style.css
 
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+----Setup Instructions----
+1. Clone the repository
+   git clone https://github.com/joellehammoud/candles-website.git
+2. Open the project folder
+   cd Candles
+3. Install dependencies
+   npm install
+4. Run the project
+   npm run dev
